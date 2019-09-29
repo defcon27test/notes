@@ -1,0 +1,17 @@
+- Complete Pentest assignments fully						
+- Review HoneyPot										> Get a Linux machine fully functional
+												> Get HP up and running
+												> Secure ideas for HP proj and flesh out concepts
+
+
+
+
+
+
+
+
+
+
+
+
+* Review Network Security Syllabus

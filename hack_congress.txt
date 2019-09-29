@@ -1,0 +1,96 @@
+Hacking Congress
+
+Hacking Congress: The Enemy Of My Enemy Is My Friend
+Friday at 10:00 in Track 2
+45 minutes
+Former Rep. Jane Harman President, The Wilson Center, Former Rep. (D-CA), aka Surfer Jane
+Rep. James Langevin (D-RI)
+Jen Ellis Director of Public Affairs, Rapid 7
+Cris Thomas Director, X-Force Red Team, IBM, aka Space Rogue
+Rep. Ted Lieu (D-CA)
+A SIMULATED crisis is unfolding on a national scale, based loosely on the NotPetya attack of 2017. Triggered by a yet-unknown adversary, what started as a an isolated technical issue has quickly escalated into a society-wide event affecting millions of citizens, several industries, and spanning government jurisdictions. Who is in charge, how do they cooperate with others, and how do they make decisions? The Wilson Center, Hewlett Foundation and I Am The Calvary are teaming up to bring public policymakers together with security researchers and others to discover how our nation might respond to a wide-scale “cyber crisis”. Work in tandem with sitting Members of Congress to understand what levers of power Congress yields and how Members can address policy gaps in the future.
+Former Rep. Jane Harman
+The Hon. Jane Harman is President of the Wilson Center, a think tank in Washington, DC. She is a former nine-term Member of Congress who served on all the major security committees and represented an aerospace and technology hub in Southern California.
+
+Twitter: @thewilsoncenter
+Website: https://www.wilsoncenter.org/person/jane-harman
+Rep. James Langevin
+The Hon. Jim Langevin represents Rhode Island's 2nd Congressional district. He is Chairman of the Emerging Threats and Capabilities Subcommittee and a senior member of the Cybersecurity and Infrastructure Protection Subcommittee. Rep. Langevin is a member of the House Majority Whip Steny Hoyer's Senior Whip Team, and is responsible for educating other Democratic Members on key issues.
+
+Twitter: @jimlangevin
+Website: https://langevin.house.gov/about-me/full-biography
+Jen Ellis
+Jen Ellis is the Vice Preident of Community and Public Affairs at Rapid7. She works directly with security researchers, technology providers and operators, and government entities to help them understand and address cybersecurity challenges together.
+
+Twitter: @infosecjen
+Website: https://blog.rapid7.com/author/jen-ellis/
+Cris Thomas
+Cris Thomas works for IBM X-Force Red, and before that worked at Guardent, Trustwave, Tenable and others. Cris created the first security research think tank L0pht Heavy Industries and the video news show The Hacker News Network.
+
+Twitter: @spacerog
+Website: https://securityintelligence.com/author/cris-thomas/
+Rep. Ted Lieu
+The Hon. Ted Lieu represents California’s 33rd Congressional district. Now in his third term in Congress, Rep. Lieu currently sits on the House Judiciary Committee and House Foreign Affairs Committee. He also serves as Co-Chair of the Democratic Policy and Communications Committee and has emerged as a leader in cybersecurity in Congress.
+
+Twitter: @RepTedLieu
+Website: https://lieu.house.gov/about/full-biography
+
+
+
+
+Many politicians still use FLIP PHONES
+Trillions of dollars and lives at risk
+
+US Congress needs you!!
+How you can help?
+
+We'll show today how Congress how can be hacked in < 45 mins. 
+Looking to solve problems
+
+2 Current Members: 	Jim Langevin - RI Rep {{lookup bios}}
+			Ted Lew - CA Rep. 
+
+2 Genuine Hackers: 	Jen Ellis - Rapid7 Policy Team
+			Space Rogue - XForce Red IBM
+
+Ransomware
+Jim: 		We're still not up to par for attacks. 
+Jane: 		What do you think Ted?
+Ted:		No, not ready. When it happens we know too late. What we can do is to try to setup conditions and protocols
+		that happen in realtime. Very many orgs involved - DOD, Homeland Security, JD, Committees, etc. 
+		20 million records floating around that released the details of who knows who, who met who, etc. (Worry of blackmail). 
+		Office Personnel Management - Was weakley protected. 
+		When an attack hits, Congress itself can't do anything. 
+Jane: 		Who should I call if the Pres says give the 2 smartest people for cybersec?
+
+Jen:		Hard to say depends on the problem. ...etc
+Space:		Take a closer look at what the overall problem is and then see who is needed where. [Alluding to everyone has different skillsets, etc.]
+Jane:		Trump lowered the manpower for cybersec in the White House and other areas. 
+Jim:		It's still in the billions of dollars, but we need to find where the money should be sent. 
+Jen:		Giving things a mandate is essential, but sometimes theres too many voices involved. A centralized voice that knows the ins 
+		and outs is probably a better thing to prioritize. 
+Ted:		Bill introduced for "bug bounties" for white hats. If you're interested contact DHS. 
+Jane:		We're building back Congress!!
+Jim:		We've seen programs like this be successful. 
+Jane: 		We need to be on top of what we're doing, from the inside out and the outside in. <fail upwards> is it ok to fail to learn?
+Jim:		If you don't fail, you don't learn. [Alluding to it's a science, we experiment and learn.]
+Ted:		Gov't doesn't do enough of that yet. Members of Congress don't walk around thinking of encryption; we spend a lot of time
+		voting and working on bills, reading etc. So things like DEFCON are good to spread awareness. 
+Jane:		What was the sophistication of [Congress] when <Space> addressed them?
+Space:		Somewhat good. The current ones _want_ to be, they want to understand. They have staffers research. The infosec community 
+		_should_ be contacting/reaching out and saying we can help, show them what we can do and how. 
+Jen:		We can get involved. {{Lookup CFA}} Learn about what committees do what. 
+Space:		As well as local, state, county, BAR Association, etc. and more outside of the umbrella gov't
+Jane:		Talk about what's critical. Are voting machines secure for the 2020 election? In the Voting Machine Village they should me that 
+		1/3 of all voting machines are vulnerable. 
+Jim:		I think we need to worry about that. There are checks but their not used everywhere. 
+Ted:		We help in multiple ways, directly with the machines and also with regulations on how they are implemented, etc. 
+		We also need to put pressure on the Senate, there's a bill we worked on for this that's being held up on in the Senate by the GOP
+Space:		I've been optimistic, we move fast they move slow. 
+		It took 20 years for Congress to show up at DEFCON.
+Jen:		Same. We are all here involved to help secure democracy. It's a process, it's a journey. Let me know if anyone wants to get involved.
+Jane:		This is one community, it has to include all of us: the political community, etc. {{Question: political community vs. gov't in this sense, and why}}
+Jim:		Yes. And unfortunately policy-making can be slow, cumbersome and difficult. We need things to line-up and timing is important.
+		There are 15 congressional staffers here at DEFCON, find them and ask them. 
+Ted:		Yes, we can also help consumers. Companies didn't disclose in time, this affects where and how the data can be used. 
+		Tides change, we never know what can happen with time. 

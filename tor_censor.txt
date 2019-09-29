@@ -1,0 +1,117 @@
+The Tor Censorship Arms Race: The Next Chapter
+Friday at 11:00 in Track 2
+45 minutes | Tool
+Roger Dingledine The Tor Project
+Tor is a free-software anonymizing network that helps people around the world use the Internet in safety. But who cares how good Tor's privacy is, if your government prevents you from reaching the Tor network?
+
+In the beginning, some countries filtered torproject.org by DNS (so we made website mirrors and an email autoresponder for downloading Tor), and then some countries blocked Tor relays by IP address (so we developed bridges, which are essentially unlisted relays), and then some countries blocked Tor traffic by Deep Packet Inspection (so we developed pluggable transports to transform Tor flows into benign-looking traffic).
+
+Then things got weird, with China's nationwide active probing infrastructure to enumerate bridges, with Amazon rolling over to Russia's threats when Telegram used "domain fronting" to get around blocking, with Turkey blocking Tor traffic by DPI in more subtle ways, with Venezuela and Ethiopia and Iran trying new tricks, and more.
+
+In this talk I'll get you up to speed on all the ways governments have tried to block Tor, walk through our upcoming steps to stay ahead of the arms race, and give you some new—easier—ways that let you help censored users reach the internet safely.
+Roger Dingledine
+Roger Dingledine is president and co-founder of the Tor Project, a nonprofit that develops free and open source software to protect people from tracking, censorship, and surveillance online.
+
+Wearing one hat, Roger works with journalists and activists on many continents to help them understand and defend against the threats they face. Wearing another, he is a lead researcher in the online anonymity field, coordinating and mentoring academic researchers working on Tor-related topics. Since 2002 he has helped organize the yearly international Privacy Enhancing Technologies Symposium (PETS).
+
+Among his achievements, Roger was chosen by the MIT Technology Review as one of its top 35 innovators under 35, he co-authored the Tor design paper that won the Usenix Security "Test of Time" award, and he has been recognized by Foreign Policy magazine as one of its top 100 global thinkers.
+
+Twitter: @RogerDingledine
+
+
+---------------------------------------
+Roger:		Hi, I'm Roger from Tor. Talk a little bit about how Tor works then censorship.
+		Tor is a non-profit, bunch of researchers, bunch of relayers, anonymity/privacy system. Estimated 2-9million people per day.
+		It's not about breaking encryption, it's about breaking the social networks down of people and then finding which house to target.
+		There are people out there that quote: ".. kill people based on their metadata."
+		
+		How Tor Works: network of relays around the world, no single relay gets to see user data. That's the network half.
+		Other level, Tor Browser works on the security on top of firefox. And now mobile. 
+		
+		How we measure safety:
+		The diversity of relays, the less likely it is if the relays are diversified. Where the relays are important. 
+		Traffic analysis resistance. Diverse types of users, Tor users in Iran just trying to use facebook, etc. 
+		Transparency, its opensource, users are able to see how it works. 
+		Privacy is about choice, its about control. How we control things
+		
+		Background:
+		Censorship resistance tools, how the paths are built, and then where do you learn how to connect into the network (proxies, etc.)
+		We have a centralized directory, good for users, but back b/c it makes Tor easy to block. 
+		Early blocking: blocking the website and the initial access points of Tor. 
+		Then we made Tor's TLS handshake look like Firefox+Apache. 
+		4 basic ways to block:	
+		Directories
+		Tor's fingerprint
+		Block website
+		{{{one more}}}
+		
+		How do you get a bridge:	
+		bridges.torproject.org
+		
+		Attack from China:	~2009
+		They grabbed all public relays and blocked 
+		And blocked some bridges
+		They missed some. Users switched, then China blocked more. People could still run private ones, and distribute via social networks
+		
+		Attack from Iran: 	~2011
+		Blvoked by DPI and blocked based on specific implementations of encryption - Diffie Helman
+		We changed a couple of relays and it worked again just fine. 
+
+		Egypt:		~2011
+		Arab Spring affected Tor users
+		
+
+		Iran: 		~2011 
+		Blocked again using different ... based on DPI
+		Starting an "arms race" to block
+
+		Blue Coat:
+		Syria had logs of IPs trying to reach URL and whether it was allowed
+		They left logs on open internet
+		Blue Coat was selling this data to regimes
+		BC bought by Symantec
+		
+		The challenge is how we build tools no matter who is using them
+
+		Tunisia:		~2011
+		First country to announce thet censor
+		Outsourced to a foreign corp. {{crazy, happens over and over}}
+		
+		Pluggable Transports
+		Changing how we implement Tor access so its less likely to be blocked
+		obfsproxy: add another layer of encyrption on headers
+	
+		meek: "domain fronting" 
+
+		Phase 3: snowflake, etc.
+
+		China does some active probing, they looked at the ones they couldn't idenify. They establised a mimic of the encrypted traffic
+		then bloacked oroginal if it was Tor
+		
+		obfs4 requires client to provide knowledge of secret
+
+		Russia blocked Facebook
+
+		Turkey is experimenting a bunch of ways to block
+
+		Venezuela is trying to block by IP
+
+		China ~mid 2018
+		They give bridges to their people to try and break or slow down, etc. 
+		~mid 2019
+		used to look for signature, now Tor changed to look more like Firefox directly. 
+		
+		Dozens of US spies killed after Iran and China uncovered CIA messaging serivce using Google
+		Telegraph
+
+		UK, Sweden, Denmark, Australia censor the internet. China tries to say they are censoring similarly 
+
+		{{lookup how China's police look - fun, playful, innocent}}
+
+		Looking at whats happening in East Turjestan, West part of China where cultural genocide is happening
+
+		Snowflake:
+		New pluggable transport. Tor Rules!! Trying to make the internet more of a network
+		Cupcake (Chrome) - now has Snowflake built in
+
+		Trying to give out bridges

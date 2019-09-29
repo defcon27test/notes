@@ -1,0 +1,66 @@
+Wi-Fi Threat Modelling and Monitoring (WiNT)
+Besim Altinok, Barikat Internet Security
+Can Kurnaz, Senior Cybersecurity Consultant at KPMG Netherlands
+With the widespread use of wireless Internet access, we see that the use of portable technologies is rapidly increasing. Increasing 
+public networks and facilitating access to these networks have attracted the attention of attackers. Due to easy availability of mature 
+honeypot creation tools, this attack is a slam dunk for even the most novice of Wi-Fi attackers. Enterprise security products have tried 
+but failed to solve this problem with rule and lockdown based approaches. In this talk, we are going to tell a story experienced about 
+Wi-Fi network attackers. We will practically demonstrate how using new detection and deception techniques we can make Wi-Fi clients and 
+environmentally secure.
+
+Besim Altinok (Twitter: @AltnokBesim) has been researching Wi-Fi security for over a decade. He created WiPi-Hunter project 
+against Wi-Fi hackers. He is the author of a book on Wi-Fi security. Besim's work on wireless security has been published in 
+ArkaKapi Magazine and others. He has also spoken at top conferences including BlackHat Europe, ASIA, Defcon, and others. Besim 
+ALTINOK works currently at BARIKAT Internet Security in Turkey. Besim also founded Pentester Training project.
+Can Kurnaz (Twitter: @0x43414e) is conducting penetration tests from internet and internal networks to web-based applications, 
+network infrastructures, wireless devices, IoT devices and operational technology infrastructures such as ICS/SCADA systems and components.
+
+
+Besim:			[Background] ... Student in Turkey, developing WiPiHunter, Author Wireless Attack, Monitor, Defense, Presented at BlackHat Europe '17 and Asia '18, etc.
+
+Can:			[Background] ... Presented at Blackhat '19, Works as PenTester
+
+			Agenda: 
+				- Wifi Networks
+				- Profile WiFi Hackers
+				- Analzye Threat Model
+				- Defense
+			We're developing a tool WiPiHunter to identify Wifi Pineapples
+			And then we started trying to build defense
+			{picture} talking about probe request,etc. 
+			Device tries to sent auth request, etc., etc. 
+			AP sends beacon frame and device tries to send connection request based on SSID thats already known
+
+			Pineapples create Open WiFi networks, malls, coffee shops, etc. with typical SSIDs that sound legit
+			{talks about how WiFi Pineapples work} 
+			uses hostapd-man to perform WiFi attacks like GTC Downgrade, Karma attacks, etc.
+			
+			Create Threat Modeling
+			The sec of an object depends on the sec of the objects it is assocuated with it
+			{picture of threat model} 
+			Works with IDS/IPS on WiFi router
+			Additionally works to identify the router manufacturer info for known vulns
+			Also considers password as weak access point
+			User devices are also a threat to the network, as the device stores the password for AP, as well as the location of the connection
+			Karma attacks - 
+			Rogue APs - 
+
+Besim:			Outside of the Network as well:
+			Fighting Against WiFi Hackers, we must know the solutions do not need to be complex 
+			We use methods: Fake Probe Requests, etc. 
+			
+			Karma Attack - whats going on exactly?
+			Use probe requests and responses 
+				{{wlan.fc.type==1 and wlan.fc.subtype==12 in Wireshark}}
+			Sends a lot of auth packets
+			{{Does Karma work like brute-force'}}
+			Can use scapy ?to send fake probe requests?
+			
+			AP always send Beacon Packers and Prove Response
+			Both similar to each other bssid+ssid+target(broadcast)
+			Demo-ed WiPiHunter			
+
+			Fingerprint Techniques for WiFi Pineapple
+			Default port # HTTP:1471, Hostname info: pineapple.al, DNSSpoof Check			
+
+

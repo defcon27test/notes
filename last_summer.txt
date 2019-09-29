@@ -1,0 +1,71 @@
+I Know What You Did Last Summer: 3 Years of Wireless Monitoring at DEF CON
+Friday at 16:00 in Track 2
+20 minutes | Demo, Tool
+d4rkm4tter (Mike Spicer) Hacker
+For the past 3 years d4rkm4tter has been obsessed with monitoring the wireless networks at DEF CON. This talk will take you on a journey through 
+the successes and failures that lead to the creation of the WiFiCactus and the over 1 TB of data captured. A history of each capture project including 
+a summary of the most interesting pieces of data will be shown.
+
+Many people spread a lot of fear, uncertainty and doubt about the wireless environments during DEF CON. This presentation aims to bring some clarity to 
+what is really happening in the airwaves during one of the largest hacker conferences in the world. This will include presenting data on the attacks and 
+sensitive information that exists in the airwaves. This presentation will demonstrate the risks of using wireless networks and information leaks that can 
+be captured by anyone who is passively listening. Countermeasures and protection strategies will be provided to help you avoid having your data captured 
+by those who might be listening. 
+
+With the number of connected devices around us, there has never been a better time to start wardriving or warwalking. Everyone is capable of profiling 
+wireless data around them thanks to cheap hardware and open source tools. As hackers it is important for us to discover issues and vulnerabilities while 
+validating claims of security by software and hardware vendors. Monitoring wireless communication is a great way to start validating those claims. All of 
+the hardware and methods used will be provided so that anyone can do this type of monitoring on their own. Hack the Planet!
+d4rkm4tter (Mike Spicer)
+d4rkm4tter is a mad scientist hacker who likes to meddle with hardware and software. He is particularly obsessed with wireless. He has a degree in computer 
+science from Southern Utah University which he has put to use building and breaking a wide array of systems. These include web application pentesting, wireless 
+monitoring and tracking as well as good old fashioned reverse engineering. He is the creator of the #WiFiCactus and has been seen presenting Demolabs at 
+DEF CON and DEF CON China Beta. He is a Kismet cultist and active in the wireless and wardriving communities.
+
+Twitter: @d4rkm4tter
+Website: palshack.org
+
+
+- - - - - - - - - - - - - - - 
+
+
+Running a crazy Pineapple!!
+
+Early 2000s, wanted to find better service. 
+
+2015, ran a backpack. 
+
+2016, planted 12 monitoring boxes. 
+
+2017+, wifi cactus. 25 Hak5 pineapple tetras
+
+Why?
+
+	- Why is DEFCON's wireless known as the "most dangerous in the world"	 to understand how to protect ourselves
+
+
+Wireshark:
+	Using another tool called NetworkMiner, Kismet, PCAPinator [github/mspicer/pcapinator] 
+
+Used Wigle.net
+	Created a map
+
+Some attacks seen:
+		were running a lot of DeAuth
+		KRACKS
+		MiTM/Karma
+		SSID bigger than 32 bytes
+
+Some vulns seen:
+		API leaks
+		DNS unencrypted, typically
+		Slack uses sub-domains
+
+	
+Closing:
+		DeAyhts will happen
+		APIs are gonna leak
+		Pineapples are a thing
+		Run geo-fencing on mobile
+		Use VPNs, but make sure there are no leaks
+		

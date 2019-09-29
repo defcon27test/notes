@@ -1,0 +1,64 @@
+The Cyber Threat Mindset
+
+Xena Olson
+@ch33r10
+
+
+Commit to Analysis
+	- Why Think About Thinking?
+		- Different Perceptions
+
+
+ch33r10:
+			Psychology of Intelligence - Rishard Hugher
+
+			Short-term/working memory impacts how we function and design, etc.
+
+			We can all be biased
+			Unlearning is Harder!!
+			No substitution for experience
+			
+
+			What kind of analyst do you wanna be?
+			
+			Logical Fallacies and Cog Bias
+
+			Cause/Effect
+			Physical Properties vs. Anything else
+			Things don't necessarily correlate from one discipline to another
+			
+	
+			Analogy
+			Again not every correlates
+
+			Probability 
+			Just bc many alerts are false pos doesn't mean the next one will be
+			
+			Anecdotal
+			"My experience is more important" - fallacy
+
+			
+			Anchoring
+			Analysts relying on the first bit of info they see - research shows that this can lead to missing things
+					"Use 'empty mind'" and slow down when making decisions
+			Confirmation Bias
+					"Use analytic thinking and 'mental models'"
+			Fomr Hugher: Analysts should be more conscious of their mindsets
+
+			CTI Mindset as a Technique
+			
+
+			_Break down problem in easily digestible parts
+
+			**took picture** 
+
+			AM I JUGGLING MORE THAN 7 +/- 2 THINGS?
+				For me, its probably 3 or 4
+
+
+			Make a PAPER checklist: shown to be beneficial. 
+
+			Think in Graphs, not Lists. 
+
+			
+
